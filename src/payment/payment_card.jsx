@@ -34,14 +34,11 @@ export const Payment_card = () => {
   }
 
   return (
-    <Card sx={{ display: 'flex', height: '250px', width: width< 900 ? "100%" : "50%" }}>
+    <Card component="Paper" elevation={7} sx={{ display: 'flex', height: '250px', width: width< 900 ? "100%" : "50%" }}>
       <Box sx={{ display: 'flex', flexDirection: 'column' , width: '40%'}}>
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Typography component="div" variant="h5">
             Eid Salami
-          </Typography>
-          <Typography variant="subtitle2" color="text.secondary" component="div">
-            Assalamualaikum Warahmatullahi Wabarakatuh
           </Typography>
         </CardContent>
 

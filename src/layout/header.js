@@ -12,6 +12,7 @@ import { Social_contact} from "./footer";
 import SchoolIcon from '@mui/icons-material/School';
 import PaidRoundedIcon from '@mui/icons-material/PaidRounded';
 import LocalPrintshopRoundedIcon from '@mui/icons-material/LocalPrintshopRounded';
+import CorporateFareRoundedIcon from '@mui/icons-material/CorporateFareRounded';
 
 
 export const Header = () => {
@@ -116,7 +117,18 @@ const List_item = () => {
             </ListItem>
           </Link>
 
-          <Link  href="/print-login"   underline="none">
+          <Link  href="#transactions"   underline="none">
+            <ListItem disablePadding data-bs-dismiss="offcanvas">
+                <ListItemButton   sx={{color: "cprimary", '&:hover': { color: "cprimary_hover"}}}>
+                  <ListItemIcon>
+                    <CorporateFareRoundedIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="Companies" />
+                </ListItemButton>
+            </ListItem>
+          </Link>
+
+          <Link  href="https://drive.google.com/drive/folders/10VFUU1qYW7_laaaOq89rSzzUqA19C4Yl?usp=sharing"   underline="none">
             <ListItem disablePadding data-bs-dismiss="offcanvas">
                 <ListItemButton   sx={{color: "cprimary", '&:hover': { color: "cprimary_hover"}}}>
                   <ListItemIcon>
