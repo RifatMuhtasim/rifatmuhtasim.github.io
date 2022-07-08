@@ -107,7 +107,7 @@ const Education = () => {
                         <div className="timeline-text">
                             <div className="timeline-date">2005 - 2011</div>
                             <h2>R. K. Lyceum School</h2>
-                            <h4>Barlekha, Moulvibazar, Sylhet</h4>
+                            <h4>Hatbond, Barlekha, Sylhet</h4>
                             <p>
                               This golden part of life began with a foggy winter morning. There were some failures. I lost my childhood. However, the seven springs did not go in vain at all.
                             </p>
