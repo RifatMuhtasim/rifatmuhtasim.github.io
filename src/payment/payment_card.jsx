@@ -29,13 +29,14 @@ export const Payment_card = () => {
       alert("Please Type your Eidi Amount")
       window.location.reload()
     } else {
-      window.location.replace(`${process.env.REACT_APP_HEX_URL}/hex/payment/${eidi_amount}/`)
+      window.location.replace('https://indianmemetemplates.com/wp-content/uploads/sad-disappointed-pakistani-fan.jpg')
+      // window.location.replace(`${process.env.REACT_APP_HEX_URL}/hex/payment/${eidi_amount}/`)
     }
   }
 
   return (
     <Card component="Paper" elevation={7} sx={{ display: 'flex', height: '250px', width: width< 900 ? "100%" : "50%" }}>
-      <Box sx={{ display: 'flex', flexDirection: 'column' , width: '40%'}}>
+      <Box sx={{ display: 'flex', flexDirection: 'column' , width: width < 600 ? '60%' : '40%'}}>
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Typography component="div" variant="h5">
             Eid Salami
@@ -48,7 +49,7 @@ export const Payment_card = () => {
         </Box>
       </Box>
 
-      <Box sx={{ width: '60%'}}>
+      <Box sx={{ width: width < 600 ? '40%' : '60%'}}>
         <CardMedia
           component="img"
           sx={{ width: '100%', height: '100%' , objectFit: "cover"}}
