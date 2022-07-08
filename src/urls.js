@@ -8,7 +8,7 @@ export const Urls = () => {
 
   return(
     <div>
-      <Routes basename={process.env.PUBLIC_URL}>
+      <Routes>
         <Route path="/" element={<Home />}  />
         <Route path="/print-login" element={<Print_login />} />
         <Route path="/rifatmuhtasim/print-login" element={<Print_login />} />

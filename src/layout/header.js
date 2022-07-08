@@ -116,7 +116,7 @@ const List_item = () => {
             </ListItem>
           </Link>
 
-          <Link  href="/rifatmuhtasim/print-login"   underline="none">
+          <Link  href="/print-login"   underline="none">
             <ListItem disablePadding data-bs-dismiss="offcanvas">
                 <ListItemButton   sx={{color: "cprimary", '&:hover': { color: "cprimary_hover"}}}>
                   <ListItemIcon>
