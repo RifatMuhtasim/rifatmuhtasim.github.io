@@ -31,7 +31,7 @@ const Details = () => {
         <div className="col-lg-4 col-md-4 py-3">
           <Box className="img-place wow fadeInUp" style={{ marginLeft: width < 1000 ? width < 600 ? "0%": '10%' :"30%", marginRight: width < 900 ?"0%" : "-15%", marginTop: 600 < width < 900 ? "0%": "-5%"}}>
             <img style={{objectFit: "cover", height: "23em", width: width < 600 ? "99%" : "90%", borderRadius: "2%"}} 
-              src="https://i.pinimg.com/236x/ac/18/e6/ac18e6d1cc327a5d5d5a97c182a598af.jpg" alt="" />
+              src="https://i.pinimg.com/564x/9a/db/78/9adb787a7030abb2b43e35f22086cdfd.jpg" alt="" />
           </Box>
         </div>
 
