@@ -74,11 +74,11 @@ const Education = () => {
                         <div className="timeline-text">
                             <div className="timeline-date">2019 - Present</div>
                             <h2>Shahjalal University of Science & Technology</h2>
-                            <h4>Akalia, Sylhet, Bangladesh </h4>
+                            <h4>Akhalia, Sylhet, Bangladesh </h4>
+                            <h6>Bachelor's of Science, Statistics</h6>
                             <p>
                                Help me! I'm stuck in varsity and can't get out!
                             </p> 
-                            <p>Hey Freshman, Run from this fucking place !!</p>
                         </div>
                     </div>
                     <div className="timeline-item right wow slideInRight" data-wow-delay="0.1s">

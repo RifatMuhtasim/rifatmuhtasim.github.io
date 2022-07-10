@@ -13,6 +13,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import PaidRoundedIcon from '@mui/icons-material/PaidRounded';
 import LocalPrintshopRoundedIcon from '@mui/icons-material/LocalPrintshopRounded';
 import CorporateFareRoundedIcon from '@mui/icons-material/CorporateFareRounded';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 export const Header = () => {
@@ -35,8 +36,8 @@ export const Header = () => {
       </Button>
 
       <div style={{ padding: '2%',  marginTop: "0%", display: "flex", justifyContent: "center", alignItems: "center"}}>
-          <Link href="#about" underline="none" style={{ display: width < 600 ? "none": ''}}>
-            <Button sx={{color: "cprimary", '&:hover': { color: "cprimary_hover"}}}>About Me</Button>
+          <Link href="https://github.com/RifatMuhtasim" target="_blank" underline="none" style={{ display: width < 600 ? "none": ''}}>
+            <Button sx={{color: "cprimary", '&:hover': { color: "cprimary_hover"}}}>Github</Button>
           </Link>
         <Header_bar />
       </div>
@@ -80,10 +81,22 @@ const Header_bar = () => {
 
 
 const List_item = () => {
+  const [height, width] = Use_window_resize()
 
   return(
     <div >
       <List >
+            <Link  href="https://github.com/RifatMuhtasim"  underline="none" target="_blank" style={{ display: width < 600 ? "": 'none'}}>
+              <ListItem disablePadding data-bs-dismiss="offcanvas">
+              <ListItemButton  sx={{color: "cprimary", '&:hover': { color: "cprimary_hover"}}}>
+                <ListItemIcon>
+                  <GitHubIcon />
+                </ListItemIcon>
+                <ListItemText primary="Github Repositories" />
+              </ListItemButton>
+              </ListItem>
+            </Link>
+
             <Link  href="#about"  underline="none">
               <ListItem disablePadding data-bs-dismiss="offcanvas">
               <ListItemButton  sx={{color: "cprimary", '&:hover': { color: "cprimary_hover"}}}>

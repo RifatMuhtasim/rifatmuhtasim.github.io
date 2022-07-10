@@ -45,7 +45,7 @@ export const Payment_card = () => {
 
         <Box component="form" onSubmit={handleSubmit} sx={{  pl: 2, pb: 2, pr:2 }}>
           <TextField  defaultValue="500" variant='outlined' type="number" label="Eidi Amount" name="eidi_amount" />
-          <Button type="submit" className="btn custom-btn custom-btn-bg custom-btn-link" sx={{ mt: "1em", width: '100%' }} startIcon={<SendRoundedIcon />} >Send Eidi</Button>
+          <Button type="submit" className="btn custom-btn custom-btn-bg custom-btn-link" sx={{ mt: "1em", width: '100%' }} startIcon={<SendRoundedIcon />} >Send Salami</Button>
         </Box>
       </Box>
 
